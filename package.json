@@ -1,7 +1,7 @@
 {
   "name": "listtotext",
   "widgetName": "ListToText",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Construct a concatenated text from list of objects.",
   "copyright": "2022 Objectivity Ltd",
   "author": "Kamil Marcinkowski",
@@ -25,7 +25,7 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.0.0",
+    "@mendix/pluggable-widgets-tools": "~9.11.0",
     "@types/big.js": "^6.0.2",
     "@types/react": "~17.0.1",
     "@types/react-dom": "~17.0.1"
