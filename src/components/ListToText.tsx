@@ -24,11 +24,7 @@ export function ListToText<T extends ObjectItem>(props: TextProps<T>): ReactElem
     }, [delimeter, items, template]);
 
     return (
-        <props.nodeType
-            className={props.className}
-            style={props.style}
-            {...(props.tabIndex ? { tabIndex: props.tabIndex } : {})}
-        >
+        <props.nodeType className={props.className} style={props.style} tabIndex={props.tabIndex}>
             {items.length !== 0 ? props.prefix + text + props.sufix : props.fallbackText}
         </props.nodeType>
     );
